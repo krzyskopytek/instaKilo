@@ -122,6 +122,7 @@
     if(self.sortingMethodIndex == 0) self.sortingMethodIndex++;
     else self.sortingMethodIndex = 0;
     [self.collectionView reloadData];
+
     
 }
 
